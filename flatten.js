@@ -1,8 +1,8 @@
 var flattenFn = function(list, oldAx = []) {
-  return list.reduce((ax,curr) => {
-    if(curr instanceof Array) {
-      return flattenFn(curr, ax)
+  return list.reduce((ax, curr) => {
+    if (curr instanceof Array) {
+      return flattenFn(curr, ax);
     }
-    return [...ax, curr]
-  },oldAx)
-}
+    return [...ax, curr];
+  }, oldAx);
+};

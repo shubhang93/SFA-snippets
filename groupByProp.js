@@ -1,3 +1,8 @@
-var grouByProp = (prop) => (list) => list.reduce((ax, curr, idx, list) => Object.assign({}, ax, {
-    [curr.id]: list.filter(e => e[prop] === curr[prop])
-}), {})
+var grouByProp = prop => list =>
+  list.reduce(
+    (ax, curr, idx, list) =>
+      Object.assign({}, ax, {
+        [prop]: list.filter(e => e[prop] === curr[prop]),
+      }),
+    {},
+  );
