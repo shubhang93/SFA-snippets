@@ -1,3 +1,5 @@
+"use strict"
+
 var myMap = function(arr, fn) {
   var res = []
   arr.forEach(function(v,i,a) {

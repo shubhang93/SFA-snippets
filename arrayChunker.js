@@ -1,0 +1,1 @@
+["","","","","a","var a = [1,2,3,4,5,6,7,8]\nvar chunkFn = (size) => function(arrayToChunkOn) {\n  var chunkedArray = []\n  while(arrayToChunkOn.length > 0) {\n    chunkedArray.push(arrayToChunkOn.splice(0,size))\n  }\n  return chunkedArray\n}","chunkFn","chunkFn(3)(a)"]
