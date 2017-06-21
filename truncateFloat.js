@@ -1,0 +1,1 @@
+["var truncateFloat = n => function(num) {\n var floatingPointNumberSplit = `${num}`.split('.')\n var integerPart = floatingPointNumberSplit[0]\n var decimalPart = floatingPointNumberSplit[1]\n var truncatedDecimalPart = decimalPart.slice(0,n)\n return parseFloat([integerPart, truncatedDecimalPart].join('.'))\n}\nvar num = 23.4567\n","truncateFloat(2)(num)"]
