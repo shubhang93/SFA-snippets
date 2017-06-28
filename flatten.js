@@ -6,3 +6,5 @@ var flattenFn = function(list, oldAx = []) {
     return [...ax, curr];
   }, oldAx);
 };
+
+export flattenFn
