@@ -1,0 +1,27 @@
+var grouByProp = (prop) => (list) => list.reduce((ax, curr,idx,list) => Object.assign({},ax, {[curr.id]: list.filter(e=>e.id === curr.id)}),{})
+var listToGroup = [{id:23, name:"Zcorp"}, {id:33, name: "SD"}, {id:23, name:"eeee"}]
+grouByProp('id')(listToGroup)
+var grouByProp = (prop) => (list) => list.reduce((ax, curr,idx,list) => Object.assign({},ax, {[curr.id]: list.filter(e=>e[prop] === curr[prop])}),{})
+grouByProp('id')(listToGroup)
+var list = [{id:1, name:"2323"},{id:2, name: "Jeevan"},{id:1, name:"Handhee"},{id:1, name:"Boli"},{id:4, "LKB"}]
+var list = [{id:1, name:"2323"},{id:2, name: "Jeevan"},{id:1, name:"Handhee"},{id:1, name:"Boli"},{id:4, name:"LKB"}]
+grouByProp('id')(list)
+grouByProp('id')(list)
+var mappedList = grouByProp('id')(list)
+mappedList[1]
+var products = [{id:1, name:"EVS"}, {id:2, name:"XWA"}]
+var products = [{id:1, name:"EVS"}, {id:2, name:"XWA"}]
+var prds = {"1": {name:"eede", id:1}}
+prds["1"]
+products.reduce((ax, curr)=> Object.assign({}, ax,{[curr.id]: curr}),{})
+var R = require('ramda')
+R.pickBy((val,key)=>indexOf(val.name)>-1)
+var prods = products.reduce((ax, curr)=> Object.assign({}, ax,{[curr.id]: curr}),{})
+R.pickBy((val,key)=>val.name.indexOf>-1)(prods)
+R.pickBy((val,key)=>val.name.indexOf("EWA")>-1)(prods)
+R.pickBy((val,key)=>val)(prods)
+R.pickBy((val,key)=>val.name==="EVS")(prods)
+R.pickBy((val,key)=>val.name.indexOf("EVS")!=-1)(prods)
+R.pickBy((val,key)=>val.name.indexOf("XWA")!=-1)(prods)
+R.pickBy((val,key)=>val.name.indexOf("XW")!=-1)(prods)
+R.pickBy((val,key)=>val.name.indexOf("EV")!=-1)(prods)

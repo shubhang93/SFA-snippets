@@ -1,0 +1,135 @@
+var data = [
+{
+"area": "Singapore",
+"billedRet": null,
+"city": "Singapore",
+"contactPerson": null,
+"ctgCode": null,
+"ctgName": null,
+"distributorId": 4,
+"district": "",
+"email": null,
+"latitude": null,
+"longitude": null,
+"pincode": null,
+"proprietorName": null,
+"rtrAdd1": "",
+"rtrCode": "AC11001:AC1111 MARINE PARADE 80",
+"rtrName": "AC1111 MARINE PARADE 80",
+"rtrPhoneNum": "0",
+"rtrid": 125,
+"state": null,
+"status": null,
+"valueClassCode": null,
+"valueClassName": null
+},
+{
+"area": "Singapore",
+"billedRet": null,
+"city": "Singapore",
+"contactPerson": null,
+"ctgCode": null,
+"ctgName": null,
+"distributorId": 4,
+"district": "",
+"email": null,
+"latitude": null,
+"longitude": null,
+"pincode": null,
+"proprietorName": null,
+"rtrAdd1": "",
+"rtrCode": "AC11001:AC1118 EASTWOOD",
+"rtrName": "AC1118 EASTWOOD",
+"rtrPhoneNum": "0",
+"rtrid": 132,
+"state": null,
+"status": null,
+"valueClassCode": null,
+"valueClassName": null
+},
+{
+"area": "Singapore",
+"billedRet": null,
+"city": "Singapore",
+"contactPerson": null,
+"ctgCode": null,
+"ctgName": null,
+"distributorId": 4,
+"district": "",
+"email": null,
+"latitude": null,
+"longitude": null,
+"pincode": null,
+"proprietorName": null,
+"rtrAdd1": "",
+"rtrCode": "AC11001:AC1125 PARADIZ CENTRE",
+"rtrName": "AC1125 PARADIZ CENTRE",
+"rtrPhoneNum": "0",
+"rtrid": 140,
+"state": null,
+"status": null,
+"valueClassCode": null,
+"valueClassName": null
+},
+{
+"area": "Singapore",
+"billedRet": null,
+"city": "Singapore",
+"contactPerson": null,
+"ctgCode": null,
+"ctgName": null,
+"distributorId": 4,
+"district": "",
+"email": null,
+"latitude": null,
+"longitude": null,
+"pincode": null,
+"proprietorName": null,
+"rtrAdd1": "",
+"rtrCode": "AC11001:AC1138 TAMPINES ONE",
+"rtrName": "AC1138 TAMPINES ONE",
+"rtrPhoneNum": "0",
+"rtrid": 154,
+"state": null,
+"status": null,
+"valueClassCode": null,
+"valueClassName": null
+}]
+data
+dataMapping = data.reduce((ax,curr,idx)=>Object.assign({},{[idx]:curr}]}))
+dataMapping = data.reduce((ax,curr,idx)=>Object.assign({},{[idx]:curr}]})
+dataMapping = data.reduce((ax,curr,idx)=>Object.assign({},{[idx]:curr})})
+dataMapping = data.reduce((ax,curr,idx)=>Object.assign({},{[idx]:curr}))
+dataMapping = data.reduce((ax,curr,idx)=>Object.assign({},{[idx]:curr}),{})
+dataMapping = data.reduce((ax,curr,idx)=>Object.assign(ax,{[idx]:curr}),{})
+var events = require('events')
+var eventEmitter = new events.EventEmitter()
+eventEmitter
+data
+data.reduce((ax,curr)=>Object.assign({},ax,{[curr.id]:curr}),{})
+data.reduce((ax,curr)=>Object.assign({},ax,{[curr.rtrId]:curr}),{})
+data
+data.reduce((ax,curr)=>Object.assign({},ax,{[curr.rtrid]:curr}),{})
+var mapping = data.reduce((ax,curr)=>Object.assign({},ax,{[curr.rtrid]:curr}),{})
+var mapping = data.reduce((ax,curr,idx)=>Object.assign({},ax,{[idx]:curr}),{})
+mapping
+var mapping = [].reduce((ax,curr,idx)=>Object.assign({},ax,{[idx]:curr}),{})
+mapping
+var session = { billTo:{billToCode:001}}
+newBillTo = {billToCode:002}
+session.billTo = {...billToCode}
+session.billTo = Object.assign({}, session.billTo,newBillTo )
+session
+session.billTo = {...billToCode}
+var seqIdMap = {0:1}
+seqIdMap
+var seqIdMap = {0:1, 2:'34',3:'44'}
+seqIdMap
+var seqIdMap = {0:1, 2:34,3:44}
+oldOrder = Object.keys(seqIdMap)
+var seqIdMap = {0:1, 1:34,2:44}
+oldOrder = Object.keys(seqIdMap)
+var newOrder = ['1', '0', '2']
+newOrder.map(key=>seqIdMap[key])
+newOrder.map(key=>({[key]:seqIdMap[key]}))
+var retailerData = [{rtrId:23, seqNo:1},{rtrId:45,seqNo:1},{rtrId:21, seqNo:3},{rtrId:100,seqNo:4}]

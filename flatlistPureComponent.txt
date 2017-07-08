@@ -1,0 +1,1 @@
+https://github.com/facebook/react-native/issues/13649 ---- Read navid94's comment brilliant explaination
